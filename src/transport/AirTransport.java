@@ -4,7 +4,7 @@ import schedule.Schedule;
 
 import java.util.List;
 
-public class AirTransport implements Transport{
+abstract class AirTransport implements Transport{
 
     private String name;
     private String from;

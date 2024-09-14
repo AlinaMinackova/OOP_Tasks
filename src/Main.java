@@ -55,6 +55,21 @@ public class Main {
         System.out.println();
         System.out.println(station2);
 
+        //        for (Transport train: plainList) {
+//
+//            if (train instanceof Plan){
+//                Plan plane = (Plan) train;
+//                System.out.println(plane.getVIPPlaces());
+//            }
+//
+//        }
+
+        List<Transport> loi = new ArrayList<>();
+        loi.add(train1);
+        loi.add(plan1);
+        for (Object o: loi) {
+            System.out.println(o);
+        }
 
     }
 }
